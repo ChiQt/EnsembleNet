@@ -19,29 +19,29 @@ This project is created based on Pytorch by ChiQt(chiXJ).
 **VGGNet**: With a deeper structure and a concise convolutional layer design, it is suitable for complex image data sets.
 
 ## voting method and stacking method
-![voting method]("./readhelper/voting/base%20method.png")
+![voting method](./readhelper/voting/base%20method.png)
 
-![stacking method step1]("./readhelper/stacking/base%20step1.png")
+![stacking method step1](./readhelper/stacking/base%20step1.png)
 
-![stacking method step2]("./readhelper/stacking/base%20step2.png")
+![stacking method step2](./readhelper/stacking/base%20step2.png)
 
 step2 refer to: Yao, Xiaotong & Fu, Xiaoli & Zong, Chaofei. (2022). Short-Term Load Forecasting Method Based on Feature Preference Strategy and LightGBM-XGboost. IEEE Access.
 
 ## Introduction
 running these scripts is very sample, you can bulid or revise your models based on them. Before you use **drawplot.py**, you have better to run other scripts to generate models.
 ```python
-**drawplot.py**: You can run this file directly. It is revealing the history of training and validating process of base calssifiers and ensemble classifiers.
+drawplot.py: You can run this file directly. It is revealing the history of training and validating process of base calssifiers and ensemble classifiers.
 
-**ensembleModel_(es)_voting.py**: Majority voting method.
+ensembleModel_(es)_voting.py: Majority voting method.
 
-**ensembleModel_(es)_Weighted_voting.py**: Weighted voting method.
+ensembleModel_(es)_Weighted_voting.py: Weighted voting method.
 
-**ensembleModel_meta**: Stacking method.
+ensembleModel_meta: Stacking method.
 
-**predict_file.py**: Predict images with three methods. If you want to caculate the
+predict_file.py: Predict images with three methods. If you want to caculate the
 results, please note that image categories are determined by the folder structure.
 
-**predict_image.py**: Predict images with three methods. You can directly predict that single or multiple images do not necessarily need to provide true labels.If you want to caculate the results, please note that labels are need to be determined by you.
+predict_image.py: Predict images with three methods. You can directly predict that single or multiple images do not necessarily need to provide true labels.If you want to caculate the results, please note that labels are need to be determined by you.
 ```
 
 ## Bib
