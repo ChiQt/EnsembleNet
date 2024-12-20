@@ -3,14 +3,14 @@ This project aims to solve a binary or multi-class image recognition problem, fo
 
 This project is created based on Pytorch by ChiQt(chiXJ).
 
-Notes:
+**Notes**:
 
 1. The code comments and the slide in \readhelper\ are currently mostly in Chinese.
 2. With limited time and computing resourses, this project uses only three network models as base classifiers, and only three methods are used to generate the ensemble model: majority voting method, weighted voting method, and stacking method. Whisper: The creator personally believes that the last type belongs to the true ensemble learning, which truly combines the advantages of all base classifiers.
 3. Methods that use the network as a base classifier for stepwise iterative methods, such as AdaBoost, have yet to be implemented...
 
 ## base classifiers
-![three classic network models](".\readhelper\base classifiers.png")
+![three classic network models](./readhelper/base%20classifiers.png)
 
 **LeNet**: Classical convolutional neural network, suitable for small scale data sets, fewer parameters.
 
@@ -19,14 +19,14 @@ Notes:
 **VGGNet**: With a deeper structure and a concise convolutional layer design, it is suitable for complex image data sets.
 
 ## voting method and stacking method
-![voting method](".\readhelper\voting method.png")
-![stacking method step1](".\readhelper\stacking step1.png")
-![stacking method step2](".\readhelper\stacking step2.png")
+![voting method]("./readhelper/voting/base%20method.png")
+![stacking method step1]("./readhelper/stacking/base%20step1.png")
+![stacking method step2]("./readhelper/stacking/base%20step2.png")
 step2 refer to: Yao, Xiaotong & Fu, Xiaoli & Zong, Chaofei. (2022). Short-Term Load Forecasting Method Based on Feature Preference Strategy and LightGBM-XGboost. IEEE Access.
 
 ## Introduction
-running these scripts is very sample, you can bulid or revise your moodels based on them.
-
+running these scripts is very sample, you can bulid or revise your models based on them. Before you use **drawplot.py**, you have better to run other scripts to generate models.
+```python
 **drawplot.py**: You can run this file directly. It is revealing the history of training and validating process of base calssifiers and ensemble classifiers.
 
 **ensembleModel_(es)_voting.py**: Majority voting method.
@@ -39,7 +39,7 @@ running these scripts is very sample, you can bulid or revise your moodels based
 results, please note that image categories are determined by the folder structure.
 
 **predict_image.py**: Predict images with three methods. You can directly predict that single or multiple images do not necessarily need to provide true labels.If you want to caculate the results, please note that labels are need to be determined by you.
-
+```
 
 ## Bib
 
