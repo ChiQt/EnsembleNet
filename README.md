@@ -25,7 +25,7 @@ This project is created based on Pytorch by ChiQt(chiXJ).
 
 ![stacking method step2](./readhelper/stacking/base%20step2.png)
 
-step2 refer to: Yao, Xiaotong & Fu, Xiaoli & Zong, Chaofei. (2022). Short-Term Load Forecasting Method Based on Feature Preference Strategy and LightGBM-XGboost. IEEE Access.
+the stacking step2 refers to: Yao, Xiaotong & Fu, Xiaoli & Zong, Chaofei. (2022). Short-Term Load Forecasting Method Based on Feature Preference Strategy and LightGBM-XGboost. IEEE Access.
 
 ## Introduction
 running these scripts is very sample, you can bulid or revise your models based on them. Before you use **drawplot.py**, you have better to run other scripts to generate models.
@@ -38,8 +38,7 @@ running these scripts is very sample, you can bulid or revise your models based 
 
 # ensembleModel_meta.py: Stacking method.
 
-# predict_file.py: Predict images with three methods. If you want to caculate the
-results, please note that image categories are determined by the folder structure.
+# predict_file.py: Predict images with three methods. If you want to caculate the results, please note that image categories are determined by the folder structure.
 
 # predict_image.py: Predict images with three methods. You can directly predict that single or multiple images do not necessarily need to provide true labels.If you want to caculate the results, please note that labels are need to be determined by you.
 ```
