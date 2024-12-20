@@ -20,8 +20,11 @@ This project is created based on Pytorch by ChiQt(chiXJ).
 
 ## voting method and stacking method
 ![voting method]("./readhelper/voting/base%20method.png")
+
 ![stacking method step1]("./readhelper/stacking/base%20step1.png")
+
 ![stacking method step2]("./readhelper/stacking/base%20step2.png")
+
 step2 refer to: Yao, Xiaotong & Fu, Xiaoli & Zong, Chaofei. (2022). Short-Term Load Forecasting Method Based on Feature Preference Strategy and LightGBM-XGboost. IEEE Access.
 
 ## Introduction
