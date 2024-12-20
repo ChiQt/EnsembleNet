@@ -19,16 +19,17 @@ This project is created based on Pytorch by ChiQt(chiXJ).
 **VGGNet**: With a deeper structure and a concise convolutional layer design, it is suitable for complex image data sets.
 
 ## voting method and stacking method
-![voting method](./readhelper/voting/base%20method.png)
+you can see pictures in readhelper:
+![voting method](./readhelper/voting/base%21method.png)
 
-![stacking method step1](./readhelper/stacking/base%20step1.png)
+![stacking method step1](./readhelper/stacking/base%22step1.png)
 
-![stacking method step2](./readhelper/stacking/base%20step2.png)
+![stacking method step2](./readhelper/stacking/base%23step2.png)
 
 the stacking step2 refers to: Yao, Xiaotong & Fu, Xiaoli & Zong, Chaofei. (2022). Short-Term Load Forecasting Method Based on Feature Preference Strategy and LightGBM-XGboost. IEEE Access.
 
 ## Introduction
-running these scripts is very sample, you can bulid or revise your models based on them. Before you use **drawplot.py**, you have better to run other scripts to generate models.
+running these scripts is very sample, you can bulid or revise your models based on them. Before you use **predict_file.py** or **predict_image.py**, you have better to run other scripts to generate models.
 ```python
 # drawplot.py: You can run this file directly. It is revealing the history of training and validating process of base calssifiers and ensemble classifiers.
 
