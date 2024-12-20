@@ -43,6 +43,7 @@ running these scripts is very sample, you can bulid or revise your models based 
 
 # predict_image.py: Predict images with three methods. You can directly predict that single or multiple images do not necessarily need to provide true labels.If you want to caculate the results, please note that labels are need to be determined by you.
 ```
+if you want to see the initial skeleton of the code, go to the init folder. The script provided the creators with an initial reference framework for implementing the idea of an ensemble neural network: Model fusion-Lenet-Alexnet-Vgg.py.
 
 ## Bib
 
