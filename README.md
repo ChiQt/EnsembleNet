@@ -31,9 +31,9 @@ running these scripts is very sample, you can bulid or revise your models based 
 
 **ensembleModel_(es)_voting.py**: Majority voting method.
 
-**ensembleModel_(es)_Weighted_voting.py**: weighted voting method.
+**ensembleModel_(es)_Weighted_voting.py**: Weighted voting method.
 
-**ensembleModel_meta**: stacking method.
+**ensembleModel_meta**: Stacking method.
 
 **predict_file.py**: Predict images with three methods. If you want to caculate the
 results, please note that image categories are determined by the folder structure.
