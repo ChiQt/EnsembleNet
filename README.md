@@ -20,11 +20,12 @@ This project is created based on Pytorch by ChiQt(chiXJ).
 
 ## voting method and stacking method
 you can see pictures in readhelper:
-![voting method](./readhelper/voting/base%21method.png)
 
-![stacking method step1](./readhelper/stacking/base%22step1.png)
+![voting method](./readhelper/voting/base%20method.png)
 
-![stacking method step2](./readhelper/stacking/base%23step2.png)
+![stacking method step1](./readhelper/stacking/base%20step1.png)
+
+![stacking method step2](./readhelper/stacking/base%20step2.png)
 
 the stacking step2 refers to: Yao, Xiaotong & Fu, Xiaoli & Zong, Chaofei. (2022). Short-Term Load Forecasting Method Based on Feature Preference Strategy and LightGBM-XGboost. IEEE Access.
 
@@ -43,7 +44,7 @@ running these scripts is very sample, you can bulid or revise your models based 
 
 # predict_image.py: Predict images with three methods. You can directly predict that single or multiple images do not necessarily need to provide true labels.If you want to caculate the results, please note that labels are need to be determined by you.
 ```
-if you want to see the initial skeleton of the code, go to the init folder. The script provided the creators with an initial reference framework for implementing the idea of an ensemble neural network: Model fusion-Lenet-Alexnet-Vgg.py.
+if you want to see the initial skeleton of the code, go to the init folder. The script provided the creator with an initial reference framework for implementing the idea of an ensemble neural network: Model fusion-Lenet-Alexnet-Vgg.py.
 
 ## Bib
 
