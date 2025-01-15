@@ -30,7 +30,7 @@ you can see pictures in readhelper:
 the stacking step2 refers to: Yao, Xiaotong & Fu, Xiaoli & Zong, Chaofei. (2022). Short-Term Load Forecasting Method Based on Feature Preference Strategy and LightGBM-XGboost. IEEE Access.
 
 ## Introduction
-running these scripts is very sample, you can bulid or revise your models based on them. Before you use **predict_file.py** or **predict_image.py**, you have better to run other scripts to generate models.
+running these scripts is very simple, you can bulid or revise your models based on them. Before you use **predict_file.py** or **predict_image.py**, you have better to run other scripts to generate models.
 ```python
 # drawplot.py: You can run this file directly. It is revealing the history of training and validating process of base calssifiers and ensemble classifiers.
 
