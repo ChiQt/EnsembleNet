@@ -61,4 +61,4 @@ If you want to refer to this project, you can use the following format:
 ```
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?user=ChiQt&repo=EnsembleNet&type=Date)](https://star-history.t9t.io/#ChiQt/EnsembleNet)
+[![Star History Chart](https://api.star-history.com/svg?user=ChiQt&repo=EnsembleNet&type=Date)](https://star-history.t9t.io/#ChiQt/EnsembleNet&Date)
