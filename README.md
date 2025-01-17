@@ -58,7 +58,7 @@ If you want to refer to this project, you can use the following format:
   url = {https://github.com/ChiQt/EnsembleNet.git},
   note = {Accessed: 2024-12-20}
 }
-
+```
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?user=ChiQt&repo=EnsembleNet&type=Date)](https://star-history.t9t.io/#ChiQt/EnsembleNet)
