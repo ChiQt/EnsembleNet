@@ -7,7 +7,7 @@ This project is created based on Pytorch by ChiQt(chiXJ).
 
 1. The code comments and the slide in \readhelper\ are currently mostly in Chinese.
 2. With limited time and computing resourses, this project uses only three network models as base classifiers, and only three blending methods(Aggregation of existing base classifiers) are used to generate the ensemble model: majority voting method, weighted voting method, and stacking method. Whisper: The creator personally believes that the last type belongs to the true ensemble learning, which truly combines the advantages of all base classifiers.
-3. Learning methods that use the network as a base classifier for stepwise iterative methods(it means that the learning and aggregation of the base learners take place simultaneously), such as AdaBoost, have yet to be implemented...
+3. Learning methods that use the networks as base classifiers for stepwise iterative methods(it means that the learning and aggregation of the base learners take place simultaneously), such as AdaBoost, have yet to be implemented...
 
 ## base classifiers
 ![three classic network models](./readhelper/base%20classifiers.png)
